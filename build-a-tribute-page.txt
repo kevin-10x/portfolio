@@ -1,0 +1,71 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TRIBUTE</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    <header>
+      <h1 id="title">JULIUS CAESAR</h1>
+      <p>Julius Caesar is history’s most famous Roman</P>
+    </header>
+    <main id="main">
+      <div class="img" id=img-div>
+        <img class="img" id="image" src="https://cdn.thecollector.com/wp-content/uploads/2024/01/julius-caesar-achievements.jpg?width=1080&quality=70">
+        <figcaption id="img-caption">By Radu Cristian, BA History, BA Philosophy, MA Medieval History</figcaption>
+        </div>
+        <div class="tribute" id="tribute-info">
+          <p>Julius Caesar was born on July 12th 100 BCE (though some cite 102 as his birth year). He was the son of Gaius Julius Caesar, a Praetor in the province of Asia, and his mother, Aurelia Cotta, who was of noble birth. </p>
+          <p>Young Julius managed to nominate himself as the new High Priest of Jupiter, however, his troubles were far from over.</p>
+          <p>he initiated a systematic purge of his political enemies, focusing on those who held the Populares ideology. Threatened by the sudden turn of events, Caesar fled Rome. </p>
+          <p>Caesar joined the Roman army.</p>
+          <p>Caesar fought with such courage that he was awarded the Civic Crown for saving a life in battle and was promoted to become military legate to Bithynia</p>
+          <p>Caesar rose to the position of Pontifex Maximus in 63 BCE. In the following year, he was elected as Praetor, and in 61 BCE he sailed to Hispania (Spain) as Propraetor.</p>
+          <p> he defeated the local warring rival tribes, brought stability to the region, and won the personal allegiance of his troops. </p>
+          <p>Caesar, as consul, proposed and pushed measures favored by his two political companions. He initiated several reforms in the spirit of the Populares ideology, such as a redistribution of land to the poor. In these, Crassus supported Caesar financially and Pompey militarily.</p>
+          <p>One of Caesar’s most significant military achievements, the Gallic Wars, began with a cry for help sent by the Haedui tribe</p>
+          <p>Following his victory in Gaul, Caesar returned to Rome and received an honorary welcome celebration. Fearing his status, Caesar renewed his political alliance with Pompey and Crassus, each promising the other to act only for their common interests.</p>
+          <p>Pompey convinced the senate to declare Caesar’s governorship of Gaul terminated and ordered him to return to Rome as a private citizen. This meant Caesar could be prosecuted for his actions when he was consul.</p>
+          <p>On the 11th of January, 49 BCE, Caesar crossed the Rubicon river, initiating a five-year-long civil war. In only two months, he conquered the whole of Italy and then Pompey’s Spanish provinces after the Battle of Pharsalus in 48 BCE. Pompey escaped to Egypt to find allies from his previous visits. Unbeknown to him, Ptolemy XIII, the Egyptian ruler, heard the news of Caesar’s victory and, believing that the gods favored Caesar over Pompey, had Pompey murdered. Caesar, outraged over Pompey’s death, allied himself with Cleopatra VII, and together they deposed Ptolemy.
+
+</p>
+<p>For more information about julius ceasar and his gretest achievements <a id="tribute-link" href="https://www.thecollector.com/julius-caesar-achievements/" target="_blank">visit here</a>
+</p>
+
+        </div>
+      </main>
+
+    </body>
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+header {
+  text-align: center;
+  border: 2px ;
+  background-color: yellow;
+  margin: 3 2 2 2;
+}
+.img{
+  background-color: grey;
+  margin: 5 2 0 auto ;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  justify-content: center;
+}
+.tribute {
+  background-color: yellow;
+  font-size: 16px;
+  font-family: vernada;
+  font-color: blue;
+  
+}
+
+** end of undefined **
+
