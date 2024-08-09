@@ -1,0 +1,169 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Technical Documentation</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header>Technical Documentation</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#Platforms">Platforms</a>
+        <a class="nav-link" href="#Backend_servers">Backend Servers</a>
+        <a class="nav-link" href="#Mobile_app_testing">Mobile App Testing</a>
+        <a class="nav-link" href="#Reference">Reference</a>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>Mobile app development is the act or process by which a mobile app is developed for one or more mobile devices...</p>
+            <p>Mobile app development has been steadily growing in terms of revenues and jobs created...</p>
+            <p>In order to facilitate the development of applications for mobile devices...</p>
+            <p>Today, mobile apps are usually distributed via an official online outlet or marketplace (e.g. Apple - The App Store, Google - Google Play) and there is a formalized process by which developers submit their apps for approval and inclusion in those marketplaces. Historically, however, that was not always the case.</p>
+
+<p>Mobile UIs, or front-ends, rely on mobile back-ends to support access to enterprise systems. The mobile back-end facilitates data routing, security, authentication, authorization, working off-line, and service orchestration. This functionality is supported by a mix of middleware components, including mobile app servers, mobile backend as a service (MBaaS), and service-oriented architecture (SOA) infrastructure</p>
+            <code>console.log('Introduction to mobile development');</code>
+        </section>
+        <section class="main-section" id="Platforms">
+            <header>Platforms</header>
+            <p>The software development packages needed to develop, deploy, and manage mobile apps...</p>
+            <ul>
+                <li>UI design tools</li>
+                <li>SDKs to access device features</li>
+                <li>Cross-platform accommodations/support</li>
+                <li>Notable tools are listed below.</li>
+            </ul>
+              <p>The software development packages needed to develop, deploy, and manage mobile apps are made from many components and tools which allow a developer to write, test, and deploy applications for one or more target platforms.</p>
+              <p>First party tools include official SDKs published by, or on behalf of, the company responsible for the design of a particular hardware platform (e.g. Apple, Google, etc) as well as any third-party software that is officially supported for the purpose of developing mobile apps for that hardware.</p>
+<p>Java but portions of code can be in C, C++,
+Kotlin
+
+Debugger integrated in Eclipse, standalone debugging monitor available	Yes	Eclipse, IntelliJ IDEA, Android Studio, Project Kenai Android plugin for NetBeans	Android only, because of Dalvik VM, March 2009	apk	Free, IntelliJ IDEA Community Edition - Free
+BlackBerry	Java	Debugger integrated in IDE	Yes	Eclipse, BlackBerry JDE	BlackBerry only, because of RIM API	alx, cod	Free</p>
+            <code>var sdk = 'Android SDK';</code>
+        </section>
+        <section class="main-section" id="Backend_servers">
+            <header>Backend Servers</header>
+            <p>Back-end servers provide a set of reusable services that are centrally managed and controlled:</p>
+            <ul>
+                <li>Integration with back-end systems</li>
+                <li>User authentication and authorization</li>
+                <li>Data services</li>
+                <li>Reusable business logic</li>
+            </ul>
+            <p>Altova MobileTogether Server	Browser-based interface	Proprietary IDE	Server available for Windows, Linux, macOS. Supports mobile devices running Android, iOS, Windows 8, Windows 10 Windows Phone, HTML5 browser-based client	On-prem, cloud, or hybrid	Development tools are free, commercial license needed for deployment</p>
+            <p>With bring your own device (BYOD) becoming the norm within more enterprises, IT departments often need stop-gap, tactical solutions that layer atop existing apps, phones, and platform component.</p>
+           <p> Features include
+
+App wrapping for security
+Data encryption
+Client actions
+Reporting and statistics</p>
+            <code>server.configure({ port: 8080, ssl: true });</code>
+        </section>
+        <section class="main-section" id="Mobile_app_testing">
+            <header>Mobile App Testing</header>
+            <p>Mobile applications are first tested within the development environment using emulators...</p>
+            <p>Google Android Emulator - an Android emulator that is patched to run on a Windows PC...</p>
+            <p>iPhoney - gives a pixel-accurate web browsing environment and it is powered by Safari. It can be used while developing web sites for the iPhone. It is not an iPhone simulator but instead is designed for web developers who want to create 320 by 480 (or 480 by 320) websites for use with iPhones. iPhoney will only run on OS X 10.4.7 or later.</p>
+            <p>BlackBerry Simulator - There are a variety of official BlackBerry simulators available to emulate the functionality of actual BlackBerry products and test how the device software, screen, keyboard and trackwheel will work with the application.</p>
+<p>Windows UI Automation - To test applications that use the Microsoft UI Automation technology, it requires Windows Automation API 3.0. It is pre-installed on Windows 7, Windows Server 2008 R2 and later versions of Windows. On other operating systems, you can install it using Windows Update or download it from the Microsoft Web site.</p>
+            <code>testApp.run();</code>
+        </section>
+        <section class="main-section" id="Reference">
+            <header>Reference</header>
+            <p>"Introduction to Mobile Application Development | IBM". www.ibm.com...</p>
+            <p>"Essential Aspects to Consider While Designing Mobile Apps | GlobalLogic UK". GlobalLogic...</p>
+            <p> "Launching Your App on Devices". Apple Developer. Retrieved 30 April 2016.</p>
+            <p> "Apps Statistics, Usage & Downloads (2020 report)". SaaS Scout (formerly SoftwareFindr). 6 January 2020. Retrieved 20 February 2024.
+ "15 Mobile App Design Best Practices". ThoughtSpot. Retrieved 20 February 2024.
+ Cordini, Marcelo (6 January 2021). "The best mobile app design: Examples". Qubika. Retrieved 20 February</p>
+
+            <p>For more about mobile app development <a href="https://en.wikipedia.org/wiki/Mobile_app_development">click here</a></p>
+              <code>var reference = new reference();</code>
+        </section>
+    </main>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+}
+
+/* Navbar Styles */
+#navbar {
+    background-color: #00471b;
+    color: #ffffff;
+    padding: 20px;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    overflow-y: auto;
+}
+
+#navbar header {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+#navbar .nav-link {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+#navbar .nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Main Document Styles */
+#main-doc {
+    margin-left: 220px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.main-section {
+    margin-bottom: 20px;
+}
+
+.main-section header {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+    #navbar {
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+
+    #main-doc {
+        margin-left: 0;
+    }
+}
+
+
+** end of undefined **
+
